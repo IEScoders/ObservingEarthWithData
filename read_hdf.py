@@ -15,10 +15,9 @@ from multiprocessing import Pool, TimeoutError
 import csv, sys
 import pandas as pd
 
-path_to = '/Users/chaseshyu/Programs/nasa_hackathon'
-path_to_data  = path_to + '/ObservingEarthWithData/Data/NASA'
-path_to_param = path_to + '/speices_parameters.csv'
-path_to_loc   = path_to + '/ObservingEarthWithData/Data/Species'
+path_to_data  = './Data/NASA'
+path_to_param = './speices_parameters.csv'
+path_to_loc   = './Data/Species'
 
 # get temperature data
 def get_temperature(filename):
