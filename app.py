@@ -84,7 +84,7 @@ app.layout = html.Div(
 html.Div([
     html.Div([
             html.Img(
-                src="https://raw.githubusercontent.com/IEScoders/ObservingEarthWithData/nghianc/Logo/header3.png", #logo for the webpage
+                src="https://raw.githubusercontent.com/IEScoders/ObservingEarthWithData/master/Logo/header3.png", #logo for the webpage
                 className='nine columns',
                 style={
                     'maxHeight': '15vh',
@@ -96,7 +96,7 @@ html.Div([
                 },
             ),
             html.Img(
-                src="https://raw.githubusercontent.com/IEScoders/ObservingEarthWithData/nghianc/Logo/logo.jpg", #logo for the webpage
+                src="https://raw.githubusercontent.com/IEScoders/ObservingEarthWithData/master/Logo/logo.jpg", #logo for the webpage
                 className='two columns',
                 style={
                     'maxHeight': '10vh',
